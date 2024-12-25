@@ -8,6 +8,13 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="" id="og-title" />
+  <meta property="og:description" content="" id="og-description" />
+  <meta property="og:image" content="" id="og-image" />
+  <meta property="og:url" content="" id="og-url" />
+  <meta property="og:type" content="article" />
+
   <!-- Favicons -->
   <link href="assets/img/icon-bbyg.png" rel="icon">
   <link href="assets/img/icon-bbyg.png" rel="apple-touch-icon">
@@ -257,6 +264,11 @@
                 }
               });
             }
+
+            document.getElementById('og-title').setAttribute('content', berita.titel);
+            document.getElementById('og-description').setAttribute('content', berita.description);
+            document.getElementById('og-image').setAttribute('content', berita.image);
+            document.getElementById('og-url').setAttribute('content', window.location.href);
           } else {
             document.getElementById('berita-detail').innerHTML = '<p>Berita tidak ditemukan.</p>';
           }
