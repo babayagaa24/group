@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titel": "Babayaga Goes to Mana Saja : Edisi Pantai Labobo",
+        "slug": "babayaga-goes-to-mana-saja-edisi-pantai-labobo",
+        "date": "Jumat, 12 April 2024",
+        "description": "Seperti biasa, babayaga selalu mengadakan agenda rutin tahunan yang bertajuk babayaga goes to mana saja. Kali ini babayaga...",
+        "content": "Seperti biasa, babayaga selalu mengadakan agenda rutin tahunan yang bertajuk babayaga goes to mana saja. Kali ini babayaga memilih pantai labobo sebagai destinasi yang akan dikunjungi. Pantai labobo merupakan salah satu pantai yang terletak di Desa Balobone, Mawasangka, Kab. Buton Tengah, Provinsi Sulawesi Tenggara. Pantai ini memiliki keindahan alam yang sangat mempesona. Pasir putih yang bersih, air laut yang jernih, dan pemandangan yang indah membuat pantai labobo menjadi destinasi yang sangat cocok untuk berlibur. Selain itu, pantai labobo juga memiliki banyak spot foto yang sangat instagramable. Jadi, tidak heran jika pantai labobo menjadi destinasi yang sangat populer di kalangan para wisatawan. Kegiatannya babayaga disana itu makan, mandi-mandi, costplay lumba-lumba juga. semoaga edisi berikutnya jelas dan lengkap semua anggota supaya solidaritasnya tambah kuat.",
+        "author": "Admin Babayaga",
+        "image": "assets/img/babayaga-herro-lp.jpeg",
+        "images": [
+            "assets/img/galeri/lakudo1.jpeg",
+            "assets/img/galeri/lakudo2.jpeg",
+            "assets/img/galeri/lakudo3.jpeg",
+            "assets/img/galeri/lakudo4.jpeg",
+            "assets/img/galeri/lakudo5.jpeg"
+        ],
+        "link": "bolg-details.html"
+    }
+]
