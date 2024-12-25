@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="article" />
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Babayaga</title>
@@ -257,6 +264,11 @@
                 }
               });
             }
+
+            document.querySelector('meta[property="og:title"]').setAttribute('content', berita.titel);
+            document.querySelector('meta[property="og:description"]').setAttribute('content', berita.description);
+            document.querySelector('meta[property="og:image"]').setAttribute('content', berita.image);
+            document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
           } else {
             document.getElementById('berita-detail').innerHTML = '<p>Berita tidak ditemukan.</p>';
           }
