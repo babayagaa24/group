@@ -265,10 +265,10 @@
               });
             }
 
-            document.getElementById('og-title').setAttribute('content', berita.titel);
-            document.getElementById('og-description').setAttribute('content', berita.description);
-            document.getElementById('og-image').setAttribute('content', berita.image);
-            document.getElementById('og-url').setAttribute('content', window.location.href);
+            document.querySelector('meta[property="og:title"]').setAttribute('content', berita.titel);
+            document.querySelector('meta[property="og:description"]').setAttribute('content', berita.description);
+            document.querySelector('meta[property="og:image"]').setAttribute('content', berita.image);
+            document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
           } else {
             document.getElementById('berita-detail').innerHTML = '<p>Berita tidak ditemukan.</p>';
           }
